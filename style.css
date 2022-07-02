@@ -1,0 +1,57 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color:a;
+}
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+.promo-title{
+    font-size: 30px; /*lata mangeshkar name tittle adjustment*/
+    font-weight: 600;
+    margin-top: 100px;
+    width: 100%;
+}
+.btn-primary{
+    box-shadow: none !important;
+    padding: 8px 25px;
+    border-radius: 2px !important;
+    border: 2px solid#838588 !important;
+    color: #096cc9!important;
+    background: none !important;
+
+}
+.btn-primary:hover{
+    background: #096cc9 !important; /*inner name*/
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+#life{
+    padding: 40px 0;
+    color: #096cc9;
+}
+.title::before{
+    content: '';
+    background: #096cc9; /*underline color*/
+    height: 5px; /* underline of early and education etc*/
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+    transform: translateY(46px);
+}
+ul{
+    list-style-type: none;
+    font-weight: lighter;
+}
+ul li{
+    padding: 3px;
+    font-weight: 300;
+    color: black;
+}
+
+/* code by Tejas Bagul*/
